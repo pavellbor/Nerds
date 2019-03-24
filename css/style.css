@@ -936,12 +936,11 @@ body {
 .catalog-title-wrapper {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	width: 100%;
-	min-height: 240px;
+	min-height: 222px;
 	box-sizing: border-box;
-	padding: 70px 0 100px;
-	margin-bottom: 60px;
+	padding: 60px 0;
+	margin-bottom: 55px;
 
 	background-color: #eeeeee;
 }
@@ -971,11 +970,11 @@ body {
 	padding: 0;
 	border: none;
 
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 }
 
 .filters-form legend {
-	margin-bottom: 23px;
+	margin-bottom: 12px;
 	padding: 0;
 
 	font-weight: 700;
@@ -983,6 +982,14 @@ body {
 	line-height: 30px;
 	color: #000000;
 	text-transform: uppercase;
+}
+
+fieldset.filters-price {
+	margin-bottom: 55px;
+}
+
+.filters-price legend {
+	margin-bottom: 48px;
 }
 
 .filters-price-control {
@@ -1030,7 +1037,7 @@ body {
 }
 
 .filters-price-value {
-	width: 112px;
+	width: 115px;
 }
 
 .filters-price-value input {
@@ -1038,7 +1045,8 @@ body {
 	border: none;
 
 	width: 80px;
-	min-height: 30px;
+	min-height: 38px;
+	margin-left: 12px;
 
 	font: inherit;
 	text-align: center;
@@ -1068,7 +1076,7 @@ body {
 }
 
 .filters-grid-item:not(:last-child) {
-	margin-bottom: 15px;
+	margin-bottom: 16px;
 }
 
 .filters-grid-item input {
@@ -1212,7 +1220,7 @@ body {
 .sort {
 	display: flex;
 	align-items: center;
-	margin-bottom: 60px;
+	margin-bottom: 48px;
 }
 
 .sort-title {
@@ -1314,7 +1322,7 @@ body {
 	position: relative;
 	width: 360px;
 	box-sizing: border-box;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 
 .catalog-item::before {
@@ -1337,7 +1345,7 @@ body {
 }
 
 .catalog-item:nth-child(odd) {
-	margin-right: 25px;
+	margin-right: 40px;
 }
 
 .catalog-item:hover {
@@ -1376,7 +1384,7 @@ body {
 	display: none;
 	width: 100%;
 	min-height: 231px;
-	padding: 35px 60px 43px;
+	padding: 27px 60px 20px;
 	box-sizing: border-box;
 
 	text-align: center;
@@ -1386,7 +1394,7 @@ body {
 
 .catalog-item-title {
 	margin: 0;
-	margin-bottom: 26px;
+	margin-bottom: 16px;
 
 	font-weight: 700;
 	font-size: 18px;
